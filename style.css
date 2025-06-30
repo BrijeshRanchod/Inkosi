@@ -1,0 +1,169 @@
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cccccc; /* white background */
+    margin: 0;
+    padding: 0;
+    color: #000; /* black text */
+}
+p {
+    text-align: center;
+    color: #000; /* black text */
+}
+/* Centered Card Container */
+.container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #000; /* black background */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3); /* subtle red shadow */
+    padding: 30px;
+    color: #fff; /* white text inside container */
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #d61e15; /* bright yellow */
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #ff0000; /* red labels */
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ff0000; /* red border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #ffffff; /* very dark input background */
+    color: #fff; /* white text */
+}
+
+form input[type="text"]::placeholder,
+form input[type="email"]::placeholder,
+form input[type="password"]::placeholder {
+    color: #000000; /* yellow placeholders */
+}
+
+form input[type="submit"] {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #ff0000; /* red button */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #cc0000; /* darker red on hover */
+}
+
+/* Feedback Messages */
+.error, .success {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.error {
+    background-color: #ffcccc; /* light red */
+    color: #cc0000; /* dark red text */
+}
+
+.success {
+    background-color: #fffacd; /* pale yellow */
+    color: #b38f00; /* golden yellow text */
+}
+
+/* Landing Page Style */
+.welcome-box {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #000; /* black background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(255, 204, 0, 0.3); /* yellow shadow */
+    color: #fff; /* white text */
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #FF8C00; /* yellow */
+    font-weight: bold;
+}
+
+.logout-link:hover {
+
+    color: #ff9900; /* darker yellow/orange on hover */
+}
+
+.call-out-button {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #FF8C00; /* orange button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.logout-button {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #000000; /* orange button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.register-button {
+    width: 20%;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff0000; /* red button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.login-button {
+    width: 20%;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #000000; /* black button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
